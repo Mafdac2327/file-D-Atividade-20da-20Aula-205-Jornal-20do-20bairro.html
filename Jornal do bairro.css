@@ -1,0 +1,96 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    
+}
+header{
+    font-size: 32px;
+
+}
+
+nav ul{
+   box-sizing: border-box;
+   padding: 0;
+   list-style-type: none;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+    border-top:3px solid darkblue;
+    border-right:3px solid darkblue;
+    border-bottom:3px solid darkblue; 
+    border-left:3px solid darkblue;
+
+}
+nav ul li a {
+   text-decoration: none;
+   
+
+}
+nav ul li a:hover {
+   cursor: pointer;
+   color: black;
+   border-bottom: 2px solid black;
+   
+
+}
+#titulo{
+    font-size: 45px;
+    text-align: center;
+    padding: 8px; 
+
+}
+#text{
+    font-size: 16px;
+    border-top:3px solid darkblue;
+    border-right:3px solid darkblue;
+    border-bottom:3px solid darkblue; 
+    border-left:3px solid darkblue;
+    text-align: center;
+    
+
+}
+#image{
+    width: 450px;
+    height: 400px;
+
+}
+#Secao1{
+    border-top:3px solid darkblue;
+    border-right:3px solid darkblue;
+    border-bottom:3px solid darkblue; 
+    border-left:3px solid darkblue;
+    text-align: center;
+
+}
+#Secao2{
+    border-top:3px solid darkblue;
+    border-right:3px solid darkblue;
+    border-bottom:3px solid darkblue; 
+    border-left:3px solid darkblue;
+    text-align: center;
+
+}
+#Secao3{
+    border-top:3px solid darkblue;
+    border-right:3px solid darkblue;
+    border-bottom:3px solid darkblue; 
+    border-left:3px solid darkblue;
+    text-align: center;
+
+}
+#noticia{
+    color: darkblue;
+    font-size: 22px;
+
+}
+#final{
+    border-top:3px solid darkblue;
+    border-right:3px solid darkblue;
+    border-bottom:3px solid darkblue; 
+    border-left:3px solid darkblue;
+    text-align: center;
+    font-size: 16px;
+
+}
